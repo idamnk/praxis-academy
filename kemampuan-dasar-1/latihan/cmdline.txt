@@ -1,0 +1,20 @@
+1. atmadm [/c][/a][/s] - Monitor koneksi dan alamat yang didaftarkan oleh atM call Manager pada jaringan mode transfer asinkron (atM)
+2. bcdboot <source> [/l] [/s] - Mempercepat mengatur partisi sistem, atau untuk memperbaiki lingkungan boot yang terletak di partisi sistem
+3. cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/VERYLOWDISK] - Menghapus file yang tidak perlu dari hard disk komputer
+4. compact [/c | /u] [/s[:<Dir>]] [/a] [/i] [/f] [/q] [<FileName>[...]] - Menampilkan atau mengubah kompresi file atau direktori pada partisi NTFS
+5. convert [<Volume>] /fs:ntfs [/v] [/cvtarea:<FileName>] [/nosecurity] [/x] - Mengubah tabel alokasi file (FAT) dan FAT32 volume ke sistem file NTFS, meninggalkan file dan direktori yang ada tetap utuh
+6. DCGPOFix [/ignoreschema] [/target: {Domain | DC | Both}] [/?] - Menciptakan Objek Kebijakan Grup (GPO) default untuk domain
+7. diskpart - mengelola drive PC (disk, partisi, volume, atau hard disk virtual)
+8. dispdiag [-testacpi] [-d] [-delay <Seconds>] [-out <FilePath>] - Log menampilkan informasi ke file
+9. endlocal - Berakhir lokalisasi perubahan lingkungan dalam file batch, dan mengembalikan variabel lingkungan ke nilai-nilai mereka sebelum perintah setlocal yang sesuai dijalankan
+10. evntcmd [/s <computerName>] [/v <verbosityLevel>] [/n] <FileName> - Mengkonfigurasi terjemahan events to traps, trap destinations, atau keduanya berdasarkan informasi dalam file konfigurasi
+11. freedisk [/s <computer> [/u [<Domain>\]<User> [/p [<Password>]]]] [/d <Drive>] [<Value>] - Memeriksa untuk melihat apakah jumlah ruang disk yang ditentukan tersedia sebelum melanjutkan dengan proses instalasi
+12. gpupdate [/target:{Computer | User}] [/force] [/wait:<VALUE>] [/logoff] [/boot] [/sync] [/?] - Memperbarui pengaturan group policy
+13. hostname - Menampilkan bagian nama host dari nama komputer lengkap dari komputer
+14. irftp [<Drive>:\] [[<path>] <FileName>] [/h][/s] - Mengirim file melalui tautan inframerah
+15. lodctr <filename> [/s:<filename>] [/r:<filename>] [/t:<servicename>] - Mendaftar atau menyimpan pengaturan nama penghitung dan pengaturan registri dalam file dan menunjuk layanan tepercaya
+16. mklink [[/d] | [/h] | [/j]] <Link> <Target> - Membuat symbolic link
+17. move [{/y | /-y}] [<Source>] [<Target>] - Memindahkan satu atau lebih file dari satu direktori ke direktori lain
+18. mqbkup {/b | /r} <folder path_to_storage_device> - Mencadangkan file pesan MSMQ dan pengaturan registri ke perangkat penyimpanan dan mengembalikan pesan dan pengaturan yang disimpan sebelumnya
+19. pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name> - Mengelola mengelola driver store.
+20. timeout /t <TimeoutInSeconds> [/nobreak] - Menjeda command processor untuk jumlah waktu yang ditentukan
