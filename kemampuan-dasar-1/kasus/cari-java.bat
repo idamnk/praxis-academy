@@ -1,4 +1,8 @@
-echo daftar file folder praxis-academy
-dir /-y "E:praxis-academy\kemampuan-dasar-1"
-echo ==========================
-pause
+DIR *.java /s /p 
+
+IF EXIST "*.java" (
+    ECHO Ada file Java pada direktori %search%
+
+) ELSE (
+    ECHO not found
+)
