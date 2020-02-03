@@ -1,4 +1,4 @@
-// bunding
+// binding
 let caught = 5 * 5;
 
 let ten = 10;
@@ -20,3 +20,4 @@ console.log(one + two);
 var name = "Ayda";
 const greeting = "Hello ";
 console.log(greeting + name);
+
