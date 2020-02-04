@@ -56,7 +56,6 @@ if (!Number.isNaN(theNumber)) {
 }
 
 let num = 68
-
 if (num < 10) {
   console.log("Small");
 } else if (num < 100) {
